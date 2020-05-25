@@ -24,7 +24,7 @@ class SearchBar extends Component {
             <div className="flex bg-white shadow-md rounded-md m-2 p-4 mb-4">
                 <div className="w-full">
                         <input
-                            className="appearance-none bg-transparent border-none text-gray-700 leading-tight focus:outline-none"
+                            className="appearance-none w-full bg-transparent border-none text-gray-700 leading-tight focus:outline-none"
                             type="text" id="cityName" placeholder="City name" onChange={this.handleChange}/>
                 </div>
                 <div>

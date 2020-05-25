@@ -6,7 +6,6 @@ class ForecastCard extends Component {
         ]
     }
 
-
     render() {
         if (this.state.forecastData.length === 0)
             return (
