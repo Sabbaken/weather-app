@@ -9,19 +9,17 @@ class SearchBar extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state)
     }
 
     handleChange = (e) => {
         this.setState({
             [e.target.id]: e.target.value
         })
-        console.log(this.state)
     }
 
     render() {
         return (
-            <div className="flex bg-white shadow-md rounded-md m-2 p-4 mb-4">
+            <div className="flex bg-white shadow-md rounded-md p-3 mb-4 mt-2" >
                 <div className="w-full">
                         <input
                             className="appearance-none w-full bg-transparent border-none text-gray-700 leading-tight focus:outline-none"

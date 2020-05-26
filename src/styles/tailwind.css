@@ -1,4 +1,8 @@
 @tailwind base;
 @tailwind components;
 
+svg {
+    display: inline;
+}
+
 @tailwind utilities;
