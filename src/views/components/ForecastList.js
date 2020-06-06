@@ -3,9 +3,7 @@ import ForecastCard from "./ForecastCard";
 
 class ForecastList extends Component {
     state = {
-        forecastData: [
-
-        ]
+        forecastData: []
     }
 
     render() {
@@ -14,8 +12,8 @@ class ForecastList extends Component {
                 <div className="bg-white shadow-md rounded-md p-4">
                     <img alt="" src={process.env.PUBLIC_URL + '/weather_app.png'}/>
 
-                    <p className="text-center text-lg tracking-wide text-gray-700">
-                        Minimalistic weather forecast web app
+                    <p className="text-center text-xl tracking-tight text-gray-700">
+                        Minimalistic weather forecast
                     </p>
                 </div>
             );
