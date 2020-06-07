@@ -1,12 +1,14 @@
-const initialState = {}
+const initialState = {
+    forecast: []
+}
 
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'DISPLAY_CITY_WEATHER':
-            return action.payload;
-            break;
+            state.forecast =  action.payload.forecast;
+            return Object.assign({}, state)
         default:
-            break;
+            return state;
     }
 }
 

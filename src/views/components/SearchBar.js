@@ -22,11 +22,11 @@ class SearchBar extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <div className="flex bg-white shadow-md rounded-md p-3 mb-4 mt-2">
+                <div className="flex bg-background-secondary shadow-sm rounded-md p-3 m-3">
 
                     <div className="w-full">
                         <input
-                            className="appearance-none w-full bg-transparent border-none text-gray-700 leading-tight focus:outline-none"
+                            className="ml-3 appearance-none w-full bg-transparent border-none text-text-primary leading-tight focus:outline-none"
                             type="text" id="cityName" placeholder="City name" onChange={this.handleChange}/>
                     </div>
                     <div>
