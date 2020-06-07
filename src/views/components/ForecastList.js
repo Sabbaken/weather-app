@@ -7,8 +7,8 @@ class ForecastList extends Component {
         if (this.props.forecast.length === 0)
             return (
                 <div className="bg-background-secondary shadow-md rounded-md mx-3 p-4">
-                    <img alt="" src={process.env.PUBLIC_URL + '/weather_app.png'}/>
-                    <p className="text-center text-xl tracking-tight text-text-primary">
+                    <img alt="" src={process.env.PUBLIC_URL + '/weather_app.svg'}/>
+                    <p className="text-center mt-1 text-xl tracking-tight text-text-primary">
                         Minimalistic weather forecast
                     </p>
                 </div>

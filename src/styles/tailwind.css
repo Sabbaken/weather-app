@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 
+html {
+    --bg-background-primary: #EEF2F9;
+    --bg-background-secondary: #F5F7F9;
+    --bg-text-primary: #4A4A4A;
+    --bg-text-secondary: #88888b;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --bg-background-primary: #303030;
+        --bg-background-secondary: #424242;
+        --bg-text-primary: #FFFFFF;
+        --bg-text-secondary: #bababa;
+    }
+}
+
 svg {
     display: inline;
 }
